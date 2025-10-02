@@ -19,7 +19,7 @@ const Contact = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <a href="mailto:harikishore025@gmail.com" rel="noopener noreferrer" className="w-full">
-                <Button size="lg" className="bg-gradient-primary border-0 shadow-glow w-full">
+                <Button size="lg" className="bg-gradient-primary border-0 shadow-glow w-full" onClick={(e) => e.preventDefault()}>
                   <Mail className="mr-2 h-5 w-5" />
                   Email Me
                 </Button>
@@ -32,17 +32,17 @@ const Contact = () => {
                 </Button>
               </a>
 
-              <Button size="lg" variant="outline" className="border-primary/50 w-full" onClick={() => window.open("https://linkedin.com", "_blank")}>
+              <Button size="lg" variant="outline" className="border-primary/50 w-full hover:bg-primary/10" onClick={() => window.open("https://linkedin.com", "_blank")}>
                 <Linkedin className="mr-2 h-5 w-5" />
                 LinkedIn
               </Button>
 
-              <Button size="lg" variant="outline" className="border-primary/50 w-full" onClick={() => window.open("https://github.com", "_blank")}>
+              <Button size="lg" variant="outline" className="border-primary/50 w-full hover:bg-primary/10" onClick={() => window.open("https://github.com", "_blank")}>
                 <Github className="mr-2 h-5 w-5" />
                 GitHub
               </Button>
 
-              <Button size="lg" variant="outline" className="border-primary/50 w-full" onClick={() => window.open("https://stackoverflow.com/users/11887348/hari-kishore?tab=profile", "_blank")}>
+              <Button size="lg" variant="outline" className="border-primary/50 w-full hover:bg-primary/10" onClick={() => window.open("https://stackoverflow.com/users/11887348/hari-kishore?tab=profile", "_blank")}>
                 <Code2Icon className="mr-2 h-5 w-5" />
                 Stack Overflow
               </Button>
