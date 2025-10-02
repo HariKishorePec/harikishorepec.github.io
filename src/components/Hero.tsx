@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import profileImage from "@/assets/profile.jpg";
 
 const Hero = () => {
   return (
@@ -8,11 +9,25 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
+          <div className="flex justify-center mb-8">
+            <div className="relative">
+              <div className="absolute inset-0 bg-gradient-primary rounded-full blur-xl opacity-50 animate-pulse" />
+              <img 
+                src={profileImage} 
+                alt="Hari Kishore - Software Development Engineer" 
+                className="relative w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-primary shadow-glow"
+              />
+            </div>
+          </div>
+          
           <div className="space-y-4">
             <h1 className="text-5xl md:text-7xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              Software Development Engineer
+              Hari Kishore
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground">
+              Software Development Engineer 2
+            </p>
+            <p className="text-lg text-foreground/70">
               Full Stack Developer | Microservices Architecture Specialist
             </p>
           </div>
