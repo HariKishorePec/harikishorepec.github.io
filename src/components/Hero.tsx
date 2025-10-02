@@ -18,11 +18,11 @@ const Hero = () => {
 
           <div className="space-y-4">
             <h1 className="text-5xl md:text-7xl font-bold bg-gradient-primary bg-clip-text text-transparent">Hari Kishore</h1>
-            <p className="text-xl md:text-2xl text-muted-foreground">Software Development Engineer 2</p>
-            <p className="text-lg text-foreground/70">Full Stack Developer | Microservices Architecture Specialist</p>
+            <p className="text-xl md:text-2xl text-muted-foreground">SDE 2 - Full Stack </p>
+            <p className="text-lg text-foreground/70"> React | Nodejs | Python | AWS | DevOps</p>
           </div>
 
-          <p className="text-lg text-foreground/80 max-w-2xl mx-auto">Experienced SDE-2 with 4+ years of expertise in building scalable applications using React, Node.js, Java, Python, and AWS. Passionate about creating efficient solutions and delivering high-quality software.</p>
+          <p className="text-lg text-foreground/80 max-w-2xl mx-auto">Experienced SDE-2 with 5+ years of expertise in building scalable applications using React, Node.js, Java, Python, and AWS. Passionate about creating efficient solutions and delivering high-quality software.</p>
 
           <div className="flex flex-wrap gap-4 justify-center items-center pt-4">
             <Button size="lg" className="bg-gradient-primary border-0 shadow-glow" onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}>
